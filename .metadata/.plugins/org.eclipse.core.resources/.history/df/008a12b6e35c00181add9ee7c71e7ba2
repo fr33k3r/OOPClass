@@ -1,0 +1,21 @@
+package oopClassExample;
+
+public class Box {
+	
+	//Properties
+	public double width;	
+	public double height;	
+	public double length;
+	
+	//Methods
+	Box(double widthValue, double lengthValue, double heightValue){
+		width = widthValue;
+		height = heightValue;
+		length = lengthValue;
+	}
+	
+	public double volume() {		
+		return width * height * length;		
+	}	
+	
+}

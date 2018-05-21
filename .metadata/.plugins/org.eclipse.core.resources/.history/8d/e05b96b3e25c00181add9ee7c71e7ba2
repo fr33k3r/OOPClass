@@ -1,0 +1,31 @@
+package oopClassExample;
+
+public class BoxExample {
+	
+	public static void main(String[] args) {
+		
+		//Red Box
+		Box redBox = new Box();
+		
+		redBox.setTheDimensions(10, 20, 15);
+		
+		//System.out.println("The box's volume is : " + redBox.volume());
+		System.out.printf("Volume is : %.1f %n", redBox.volume());
+		System.out.printf("for a box %.2f by %.2f by %.2f %n", redBox.width, redBox.height, redBox.length );
+		
+		
+		//Blue Box
+		Box blueBox = new Box();
+		
+		blueBox.width = 4;
+		blueBox.height = 5;
+		blueBox.length = 10;
+	
+		//System.out.println("The box's volume is : " + redBox.volume());
+		System.out.printf("Volume is : %.1f %n", blueBox.volume());
+		System.out.printf("for a box %.2f by %.2f by %.2f %n", blueBox.width, blueBox.height, blueBox.length );
+
+
+	}
+	
+}

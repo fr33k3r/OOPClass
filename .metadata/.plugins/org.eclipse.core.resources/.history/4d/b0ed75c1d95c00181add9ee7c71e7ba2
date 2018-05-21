@@ -1,0 +1,21 @@
+package oopClassExample;
+
+public class Box {
+	
+	//Properties
+	public double width;	
+	public double height;	
+	public double length;
+	
+	//Methods
+	public void volume() {
+		
+		double volume;
+		
+		volume = width * height * length;
+		
+		System.out.println("Volume is " + volume);
+		
+	}
+
+}

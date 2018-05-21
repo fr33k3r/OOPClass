@@ -1,0 +1,17 @@
+package oopClassExample;
+
+public class BoxExample {
+	
+	public static void main(String[] args) {
+		
+		Box redBox = new Box();
+		
+		redBox.width = 10;
+		redBox.height = 20;
+		redBox.length = 15;
+		
+		redBox.volume();
+
+	}
+	
+}

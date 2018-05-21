@@ -1,0 +1,15 @@
+package oopClassExample;
+
+public class Employee {
+	
+	//Properties
+	public String name;	
+	public double salary;	
+	public double bonus;
+		
+	//Methods
+	public double totalSalary() {		
+			return bonus * salary;		
+	}
+
+}

@@ -1,0 +1,27 @@
+package oopClassExample;
+
+public class Box {
+	
+	//Properties
+	private double width;	
+	private double height;	
+	private double length;
+	
+	//Constructos
+	//Rectangle
+	Box(double width, double length, double height){
+		this.width = width;
+		this.height = height;
+		this.length = length;
+	}	
+	//Square
+	Box(double size) {
+		this.width = this.height = this.length = size;		
+	}
+	
+	//Methods	
+	public double volume() {		
+		return this.width * this.height * this.length;		
+	}	
+	
+}

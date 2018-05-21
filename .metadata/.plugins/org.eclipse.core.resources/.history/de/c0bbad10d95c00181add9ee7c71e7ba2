@@ -1,0 +1,13 @@
+package oopClassExample;
+
+public class Box {
+	
+	//Properties
+	public double width;	
+	public double height;	
+	public double length;
+	
+	//Methods
+	
+
+}

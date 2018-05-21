@@ -1,0 +1,25 @@
+package oopClassExample;
+
+public class EmployeeExample {
+	
+	public static void main(String[] args) {
+		
+		Employee JSmith = new Employee();
+		
+		JSmith.name = "Joe Smith";
+		JSmith.salary = 1800;
+		JSmith.bonus = 200;	
+
+		System.out.printf("%s has a total salary of %.2f pounds %n", JSmith.name, JSmith.totalSalary());
+		
+		Employee DBrown = new Employee();
+		
+		DBrown.name = "Daniel Brown";
+		DBrown.salary = 2200;
+		DBrown.bonus = 350;	
+
+		System.out.printf("%s has a total salary of %.2f pounds %n", DBrown.name, DBrown.totalSalary());
+
+	}
+	
+}

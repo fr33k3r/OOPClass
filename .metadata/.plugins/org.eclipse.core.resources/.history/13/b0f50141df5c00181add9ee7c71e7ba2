@@ -1,0 +1,23 @@
+package oopClassExample;
+
+public class Employee {
+	
+	//Properties
+	public String name;	
+	public double salary;	
+	public double bonus;
+		
+	//Methods
+	public double totalSalary() {		
+			return bonus + salary;		
+	}
+	
+	public void displayEmployee(Employee emp) {
+		System.out.println("Employee: " + emp.name);
+		System.out.println("Salary: $" + emp.salary);
+		System.out.println("Bonus: $" + emp.bonus);
+		System.out.println("Final Salary: $" + emp.totalSalary());
+		System.out.println();
+	}
+
+}

@@ -1,0 +1,18 @@
+package oopClassExample;
+
+public class BoxExample {
+	
+	public static void main(String[] args) {
+		
+		Box redBox = new Box();
+		
+		redBox.width = 10;
+		redBox.height = 20;
+		redBox.length = 15;
+		
+		System.out.println("The box's volume is : " + redBox.volume());
+		System.out.printf("for a box %.2f by %.2f by %.2f", redBox.width, redBox.height, redBox.length );
+
+	}
+	
+}
