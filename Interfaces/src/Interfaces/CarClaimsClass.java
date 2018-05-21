@@ -5,14 +5,14 @@ public class CarClaimsClass extends ClaimAbstractClass {
 	@Override
 	public void personalDetails() {
 		
-		System.out.println("What is your name: ");
+		System.out.println("(Abstract Class) What is your name: ");
 		
 	}
 
 	@Override
 	public void productDetails() {
 		
-		System.out.println("What is the product name: ");
+		System.out.println("(Abstract Class) What is the product name: ");
 		
 	}
 

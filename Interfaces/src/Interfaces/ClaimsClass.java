@@ -8,6 +8,12 @@ public class ClaimsClass {
 		
 		myCarClaimsClass.personalDetails();
 		myCarClaimsClass.productDetails();
+		
+		CarClaimsClassImplementsInterface myCarClaimsClassImplementsInterface = new CarClaimsClassImplementsInterface();
+		
+		myCarClaimsClassImplementsInterface.personalDetails();
+		myCarClaimsClassImplementsInterface.productDetails();
+		System.out.println("(Interface) " + myCarClaimsClassImplementsInterface.carDetails());
 	}
 
 }
